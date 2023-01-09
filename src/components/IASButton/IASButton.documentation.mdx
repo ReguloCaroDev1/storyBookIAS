@@ -1,0 +1,35 @@
+import { Canvas, Story } from "@storybook/addon-docs";
+
+# Button
+
+The **_`<IASButton/>`_** is a button that you can click to make events
+
+It have the next list of props:
+
+**typeButton:** _(optional|string)_ This props allows to change all the style and sizes on what button do you want to use.
+
+**size:** _(optional|string)_ This prop can change the value of the size, which it could be **small**, **medium** or **large**
+
+**label:** _(requerid|string)_ This prop it's requerid and it change the text of the button
+
+**onClick:** _(optional|function)_ You can add an event/function when you click the button
+
+**disabled:** _(optional|boolean)_ With this prop you can disable the button and it cannot send and event or click it
+
+### Example 1: This is the button with primary class
+
+<Canvas>
+  <Story id="ias-button--primary" />
+</Canvas>
+
+### Example 2: This is the button with secondary class and large size
+
+<Canvas>
+  <Story id="ias-button--secondary" />
+</Canvas>
+
+### Example 3: This is the button disabled
+
+<Canvas>
+  <Story id="ias-button--disabled" />
+</Canvas>
