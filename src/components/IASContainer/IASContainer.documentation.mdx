@@ -1,0 +1,25 @@
+import { Canvas, Story } from "@storybook/addon-docs";
+
+# Container
+
+The **_`<IASContainer/>`_** is a container that allows you to put text, background image and a image, which it have a button that you can click to go to another route
+
+It have the next list of props:
+
+**title:** _(requerid|string)_ This is the title of the container
+
+**subtitle:** _(requerid|string)_ This is the subtitle of the container
+
+**buttonType:** _(requerid|string)_ This prop it's requerid and it change the view of the button, see the **_`<IASButton/>`_** documentation for more examples
+
+**image:** _(requerid|string)_ This is a string which it can change the image of the container
+
+**backgroundImage:** _(requerid|string)_ This is a string which it can change the background image of the container
+
+**category:** _(optional|string)_ This props is optional and allows you to put a category upside the title
+
+### Example: This is the container with all the props
+
+<Canvas>
+  <Story id="ias-container--view" />
+</Canvas>
